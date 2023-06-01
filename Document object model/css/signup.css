@@ -1,0 +1,66 @@
+#main_div
+{
+    border: 1px solid black;
+    height: 728px;
+    background-image: url(../../HTML/image/Graduation\ Cap\ School\ Supplies\ Blackboard\ Education\ Background.jpeg);
+    background-repeat: round;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page
+{
+    border: 1px antiquewhite;
+    border-style: inherit;
+    min-height: 300px;
+    min-width: 700px;
+    background-color: rgb(250,235,215,0.5);
+    border-radius: 10px;
+   
+   
+}
+.val
+{
+    visibility: hidden;
+}
+*
+{
+    margin: 0px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 280px;
+    padding-top: 30px;
+}
+
+input
+{
+    border: 0px solid black;
+    border-radius: 5px;
+}
+#Log-in{
+    display: flex;
+    justify-content:center;
+}
+button
+{
+    background-color: chartreuse;
+    color: black;
+    margin-top: 20px;
+    animation: bu 2s alternate-reverse ;
+    border-radius: 50%;
+    padding: 10px;
+}
+button:hover
+{
+    padding: 5px;
+    border-radius: 20%;
+    background-color: cyan;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

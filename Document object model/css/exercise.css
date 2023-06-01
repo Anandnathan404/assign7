@@ -1,0 +1,48 @@
+#nav
+{
+    font-weight: bolder;
+    font-size: larger;
+    display: flex;
+    height: 70px;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgb(239, 23, 23),green,blue,aqua);
+}
+#loginsign
+{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 30px;
+    position: absolute;
+    left: 1250px;
+    top: 100px;
+    visibility: hidden;
+}
+#main
+{
+    height: 700px;
+    border: 1px solid black;
+    background-image: linear-gradient(rgb(23, 246, 2),rgb(91, 21, 132),aqua);
+    color: white;
+}
+.both
+{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px 100px;
+    position: absolute;
+    left: 530px;
+    top: 200px;
+    visibility: hidden;
+
+}
+
+#sign
+{
+    line-height: 30px;
+}
+#ss
+{
+    text-align: center;
+}

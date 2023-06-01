@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+   <div id="main_div">
+         <div id="page">
+            <h1>Register</h1><br>
+            <div id="Log-in">
+              
+
+               <form action="" method>
+                <table>
+                  <tr>
+                     <td>
+                        <label for="fn">Full Name</label>
+                     </td>
+                    <td>
+                        <input type="text" onblur="vfn()" id="fn">
+                     </td>
+            
+                  </tr>
+                 <tr>
+                  <td></td>
+                  <td>
+                     <p class="val" id="vfn"></p>
+                  </td>
+                 </tr>
+                  <tr>
+                     <td>
+
+                        <label for="age">Enter your age</label>
+                     </td>
+                     <td>
+                        <input type="number" onblur="vag()" id="age" min="15" max="99">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+
+                     <td>
+                        <p class="val" id="vag"></p>
+                     </td>
+                    </tr>
+                  <tr>
+                     <td>
+                        <label for="Mobile">Enter Mobile number</label>
+                     </td>
+                     <td>
+
+                        <input type="tel" id="Mobile" onkeyup="vmob()">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+
+                     <td>
+                        <p class="val" id="vmo"></p>
+                     </td>
+                    </tr>
+                  <tr>
+                     <td><label for="pass">Enter Your Password</label></td>
+                     <td>
+                        <input type="password" id="pass" onblur="vpass()" > <i class="fa-solid fa-eye" onclick="show1()"></i>
+                     </td>
+                    
+                  </tr>
+                  <tr>
+                     <td></td>
+
+                     <td>
+                        <p class="val" id="vpass"></p>
+                     </td>
+                    </tr>
+                  <tr>
+                     <td>
+                        <label for="cpass">Confirm your password</label>
+                     </td>
+                     <td>
+                        <input type="password" id="cpass" onkeyup="vcpass()"><i onclick="show()" class="fa-solid fa-eye"></i>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+
+                     <td>
+                        <p class="val" id="vcpass" ></p>
+                     </td>
+                    </tr>
+                </table> 
+                <button><a href="../html/assign7.Html">Submit</a></button>
+                <button><a href="../html/assign7.Html">Cancel</a></button>
+               </form>
+            </div>
+         </div>
+   </div>
+
+    <script src="../js/signup.js"> 
+      
+   </script>
+
+   <script src="https://kit.fontawesome.com/d48687e4b3.js" crossorigin="anonymous"></script>   
+</body>
+</html>

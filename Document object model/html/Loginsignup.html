@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../css/Loginsignup.css">
+</head>
+<body>
+    <div id="main">
+        <div id="login" class="box">
+        <button class="big1" onclick="Login()" id="log"><h1>Login</h1></button><button onclick="Signup()" class="big1" id="sign"><h1>Sign Up</h1></button><br>
+        <table>
+            <tr>
+                <td>
+                    <label for="ilog" >User:</label>
+
+                </td>
+                <td>
+                    <input type="text" id="ilog" onkeydown="usern()"><br>
+                </td>
+
+            </tr>
+             <tr>
+               <td>
+
+               </td>
+             </tr>
+            <tr>
+                <td>
+                    <label for="ipas">Password:</label>
+
+                </td>
+                <td>
+                    <input type="password" onkeydown="pass()" id="ipas">
+
+                </td>
+            </tr>
+            <tr>
+               <td>
+
+               </td>
+             </tr>
+        </table>
+        <button id="small"><h3>Submit</h3></button>
+        <br>
+        </div>
+        <div id="signup" class="box">
+            <button onclick="Login()" class="big"  id="log"><h1>Login</h1></button><button onclick="Signup()" class="big" id="sign"><h1>Sign Up</h1></button>
+          
+            <form action="../HTML/assign7.Html" method>
+                <table>
+                  <tr>
+                     <td>
+                        <label for="fn">Full Name</label>
+                     </td>
+                     <td>
+                        <input type="text" id="fn">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label for="ln">Last Name</label>
+                     </td>
+                     <td>
+                        <input type="text" id="ln">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+
+                        <label for="age">Enter your age</label>
+                     </td>
+                     <td>
+                        <input type="text" id="age">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <label for="Mobile">Enter Mobile number</label>
+                     </td>
+                     <td>
+
+                        <input type="tel" id="Mobile">
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><label for="pass">Enter Your Password</label></td>
+                     <td>
+                        <input type="password" id="pass">
+                     </td>
+                    
+                  </tr>
+                  <tr>
+                     <td>
+                        <label for="cpass">Confirm your password</label>
+                     </td>
+                     <td>
+                        <input type="password" id="cpass">
+                     </td>
+                  </tr>
+                </table> 
+                <button id="smal1" class="s">Submit</button>
+                <button id="smal1">Cancel</button>
+               </form>
+            
+           </div>
+
+    </div>
+
+
+
+    <script src="../js/Liginsignup.js"></script>
+</body>
+</html>

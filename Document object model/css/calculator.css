@@ -1,0 +1,38 @@
+#op
+{
+    line-height: 50px;
+    
+}
+button
+{
+    padding: 10px;
+    background-image: linear-gradient(red,black);
+    border-radius:25px ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#res
+{
+    background-image: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+    color: rgb(10, 0, 0);
+    text-align: center;
+    height: 730px;
+    width: 1500px;
+    position: absolute ;
+    top: 0;
+    line-height: 60px;
+    visibility: hidden;    
+}
+#h
+{
+    padding-top: 250px;
+}
+#return
+{
+    background-color: rgb(0, 255, 38);
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 55px;
+}

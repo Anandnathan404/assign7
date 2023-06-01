@@ -1,0 +1,96 @@
+#main
+{
+    border: 1px solid black;
+    display: flex;
+    height: 710px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../html/Graduation\ Cap\ School\ Supplies\ Blackboard\ Education\ Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box
+{
+    border: 5px solid black;
+    min-height: 400px;
+    min-width: 700px;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(12, 12, 12);
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    background-image: url(../../HTML/image/validitysamplesizemath.jpg);
+}
+table
+{
+    margin: 50px 250px;
+}
+.big
+{
+    padding: 10px 200px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+.big1
+{
+    padding: 10px 160px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+#login
+{
+    position: absolute;
+
+}
+#log
+{
+    background-color: rgb(119, 255, 0);
+ 
+}
+#sign
+{
+    background-color: rgb(72, 0, 255);
+}
+
+#small
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px;
+    border-radius: 15px;
+    background-color: darkblue;
+    margin: 0px 350px;
+
+}
+#smal1
+{
+    color: white;
+    border: 5px;
+    border-radius: 15px;
+    background-color: darkblue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#signup
+{
+    visibility: hidden;
+
+}
+.s
+{
+    margin-left: 600px;
+}
+.ilog2
+{
+    font-size: small;
+    visibility: hidden;
+    font-weight: bolder;
+}

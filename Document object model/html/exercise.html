@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/exercise.css">
+</head>
+<body>
+   <div id="main">
+   <div id="nav">
+    <div>
+      Home
+    </div>
+    <div>
+      Content
+    </div>
+    <div>
+     About
+    </div>
+    <div id="reg">
+      Register
+    </div>
+
+    <div id="loginsign" >
+      <h1 id="bt1">Login</h1>
+      <h1 id="bt2">Signin</h1>
+     </div>
+     <div id="log" class="both">
+      <div id="page">
+         <h1 id="ss">Student Log-in</h1>
+         <div id="Log-in">
+            <form action="#" method>
+               <label for="user_name">Username:</label>
+               <input type="text" id="user_name" onblur="valid1()" autofocus autocomplete="off" placeholder="Minumaum Characters 5"><br><br>
+               <p class="va" id="vun"></p>
+  
+               <label for="user_passord">Password :</label>
+               <input type="password" id="user_passord" onblur="valid2()"  minlength="8" placeholder="Minumaum Characters 5"><i onclick="show()" class="fa-solid fa-eye"></i> <br><br>
+               <p class="va" id="vup"></p>
+  
+               <input type="submit" id="sub" ><br><br>
+               <a href="./signup.html"><h3>Create Account?</h3></a>
+             </form>
+         </div>
+      </div>
+     </div >
+     <div id=sign class="both">
+      <h1 id="ss">
+        Register
+      </h1>
+      <form action="../HTML/assign7.Html" method>
+        <table>
+          <tr>
+             <td>
+                <label for="fn">Full Name</label>
+             </td>
+             <td>
+                <input type="text" id="fn">
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <label for="ln">Last Name</label>
+             </td>
+             <td>
+                <input type="text" id="ln">
+             </td>
+          </tr>
+          <tr>
+             <td>
+  
+                <label for="age">Enter your age</label>
+             </td>
+             <td>
+                <input type="text" id="age">
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <label for="Mobile">Enter Mobile number</label>
+             </td>
+             <td>
+  
+                <input type="tel" id="Mobile">
+             </td>
+          </tr>
+          <tr>
+             <td><label for="pass">Enter Your Password</label></td>
+             <td>
+                <input type="password" id="pass">
+             </td>
+            
+          </tr>
+          <tr>
+             <td>
+                <label for="cpass">Confirm your password</label>
+             </td>
+             <td>
+                <input type="password" id="cpass">
+             </td>
+          </tr>
+        </table> 
+        <button id="smal1" class="s">Submit</button>
+        <button id="smal1">Cancel</button>
+       </form>
+     </div>
+     
+   
+  
+ </div>
+
+   </div>
+
+   
+</body>
+<script src="../js/exercise.js"></script>
+</html>
